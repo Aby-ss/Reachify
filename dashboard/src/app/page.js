@@ -10,8 +10,9 @@ export default function Home() {
         Drag and drop your file containing the prospect detials in the area below. File type supported : csv excel files
       </p>
 
-      <div className="border-dashed border-2 border-sky-500 w-[500px] h-[250px] p-[16px] rounded-md flex justify-center">
+      <div className="flex flex-col items-center gap-5 border-dashed border-2 border-sky-500 w-[500px] h-[250px] p-[16px] rounded-md flex justify-center">
         <p className="font-bold text-lg tracking-[-.05em]">Drag n drop the files</p>
+        <input type="file" name="image" />
       </div>
     </div>
   );
